@@ -38,6 +38,7 @@ export default function Home() {
         locationLabel="Edmundston, NB"
         unitsLabels={{ temperature: "C", windSpeed: "Km/h" }}
         theme={customStyles}
+        showForecast={false}
       />
       {/* <h1>{data.current.temperature}</h1> */}
     </div>
