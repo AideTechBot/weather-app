@@ -1,5 +1,7 @@
 import styles from "../styles/Home.module.css";
-import ReactWeather, { useWeatherBit } from "react-open-weather";
+import ReactWeather, {
+  useWeatherBit,
+} from "../react-open-weather/src/js/index";
 
 export default function Home() {
   const { data, isLoading, errorMessage } = useWeatherBit({
@@ -27,6 +29,7 @@ export default function Home() {
     forecastDescColor: "#777",
     forecastRangeColor: "#777",
     forecastIconColor: "#4BC4F7",
+    borderRadius: 0,
   };
   return (
     <div className={styles.container}>

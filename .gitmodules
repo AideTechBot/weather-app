@@ -1,0 +1,3 @@
+[submodule "react-open-weather"]
+	path = react-open-weather
+	url = ./react-open-weather/
