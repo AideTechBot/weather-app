@@ -20,7 +20,7 @@ export default function Home() {
     todayTempFontColor: "#FFF",
     todayDateFontColor: "#B5DEF4",
     todayRangeFontColor: "#B5DEF4",
-    todayDescFontColor: "#B5DEF4",
+    todayDescFontColor: "#FFF",
     todayInfoFontColor: "#B5DEF4",
     todayIconColor: "#FFF",
     forecastBackgroundColor: "#FFF",
