@@ -32,18 +32,15 @@ export default function Home() {
     borderRadius: 0,
   };
   return (
-    <div className={styles.container}>
-      <ReactWeather
-        isLoading={isLoading}
-        errorMessage={errorMessage}
-        data={data}
-        lang="fr"
-        locationLabel="Edmundston, NB"
-        unitsLabels={{ temperature: "C", windSpeed: "Km/h" }}
-        theme={customStyles}
-        showForecast={false}
-      />
-      {/* <h1>{data.current.temperature}</h1> */}
-    </div>
+    <ReactWeather
+      isLoading={isLoading}
+      errorMessage={errorMessage}
+      data={data}
+      lang="fr"
+      locationLabel="Edmundston, NB"
+      unitsLabels={{ temperature: "C", windSpeed: "Km/h" }}
+      theme={customStyles}
+      showForecast={false}
+    />
   );
 }
