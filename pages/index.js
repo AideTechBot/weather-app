@@ -1,11 +1,11 @@
 import styles from "../styles/Home.module.css";
 import ReactWeather, {
-  useWeatherBit,
+  useOpenWeather,
 } from "../react-open-weather/src/js/index";
 
 export default function Home() {
-  const { data, isLoading, errorMessage } = useWeatherBit({
-    key: "b7c93ea525c743e69903c0e8d876b753",
+  const { data, isLoading, errorMessage } = useOpenWeather({
+    key: "9416de207c05d06fda860ca53cebd517",
     lat: "47.3690",
     lon: "-68.3267",
     lang: "fr",
